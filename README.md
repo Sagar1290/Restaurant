@@ -4,14 +4,14 @@ Project's Description: The website is currently half developed (only front end) 
 The main motive is to apply knowledge of react in a real world Problem.
 
 Technologies Used:
-HTML
-CSS
-JavaScript
-ReactJS
+HTML,
+CSS,
+JavaScript,
+React.
 
 
 Following are the requirements to run this project:
 
-Node Package Manager (NPM)
+Node Package Manager (NPM),
 React
 
