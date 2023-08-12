@@ -10,12 +10,11 @@ const Demo = () => {
             <section className='log-in-page'>
                 <div className='log-in-div'>
                     <div className='log-in-toggle text-center'>
-                        <div className={show === 'login' ?"active left": null}onClick={() => (setShow('login'))}>
+                        <div className={show === 'login' ? "active left" : null} onClick={() => (setShow('login'))}>
                             log in
                         </div>
-                        <div className={show === "signin" ?"active right": null} onClick={() => (setShow('signin'))}>
-                            sign in
-
+                        <div className={show === "signin" ? "active right" : null} onClick={() => (setShow('signin'))}>
+                            sign up
                         </div>
                     </div>
                     {(show === 'login') ?

@@ -5,8 +5,8 @@ const Menu = [
         'item1': 'Chicken Biriyani',
         'item2': 'Masala Dosa',
         'item3': 'Chicken Fried Rice', 
-        "item4": 'Paneer Butter Masala',
-        'desc': 'perfect fuel...<br>If you are looking for the most delicious dishes then here is a list of most ordered foods from our valuable cusomers.',
+        'item4': 'Paneer Butter Masala',
+        'desc': 'perfect fuel... If you are looking for the most delicious dishes then here is a list of most ordered foods from our valuable cusomers.',
     },
     {
         'title': 'Instant Hunger',
