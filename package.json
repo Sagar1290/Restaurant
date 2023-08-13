@@ -16,7 +16,7 @@
     "predeploy": "npm run build PUBLIC_URL=https://sagar1290.github.io/Restaurant/",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build PUBLIC_URL=https://sagar1290.github.io/Restaurant/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
