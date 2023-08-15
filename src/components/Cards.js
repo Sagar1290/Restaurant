@@ -12,43 +12,43 @@ const Cards = ({ menuData }) => {
 
     return (
         <>
-        <h2 className='heading text-center'> what we serve</h2>
-        <section className='cards-main-container'>
-            {menuData.map((curElem) => {
-                return (
-                    <>
-                        <div className='cards-main-div'>
-                            <div className='card-container' id='card'>
-                                <div className='card-title'>
-                                    <h2>{curElem.title}</h2>
-                                </div>
-                                <div className="card-image">
-                                    <img src={curElem.image} alt='card'></img>
-                                </div>
-                                <div className='card-details'>
-                                    <ul>
-                                        <li>{curElem.item1}</li>
-                                    </ul>
-                                    <ul>
-                                        <li>{curElem.item2}</li>
-                                    </ul>
-                                    <ul>
-                                        <li>{curElem.item3}</li>
-                                    </ul>
-                                    <ul>
-                                        <li>{curElem.item4}</li>
-                                    </ul>
-                                    <p className='card-description'>
-                                        {curElem.desc}
-                                    </p>
-                                    <a className='card-read bottom-0 end-0' onClick={() => {display()}}> Read More</a>
+            <h2 className='heading text-center'> What We Serve</h2>
+            <section className='cards-main-container'>
+                {menuData.map((curElem) => {
+                    return (
+                        <>
+                            <div className='cards-main-div'>
+                                <div className='card-container' id='card'>
+                                    <div className='card-title'>
+                                        <h3>{curElem.title}</h3>
+                                    </div>
+                                    <div className="card-image">
+                                        <img src={curElem.image} alt='card'></img>
+                                    </div>
+                                    <div className='card-details'>
+                                        <ul>
+                                            <li>{curElem.item1}</li>
+                                        </ul>
+                                        <ul>
+                                            <li>{curElem.item2}</li>
+                                        </ul>
+                                        <ul>
+                                            <li>{curElem.item3}</li>
+                                        </ul>
+                                        <ul>
+                                            <li>{curElem.item4}</li>
+                                        </ul>
+                                        <p className='card-description'>
+                                            {curElem.desc}
+                                        </p>
+                                        <a className='card-read bottom-0 end-0' onClick={() => { display() }}> Read More</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </>
-                )
-            })}
-        </section>
+                        </>
+                    )
+                })}
+            </section>
         </>
     )
 }

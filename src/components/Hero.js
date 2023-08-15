@@ -6,7 +6,6 @@ import Footer from './Footer.js'
 import Services from './Services'
 import Service from './ServicesApi'
 import AboutUs from './AboutUs'
-import { Api } from './api.json'
 
 const Hero = () => {
 
@@ -19,7 +18,7 @@ const Hero = () => {
             <AboutUs />
             <Cards menuData={menuData} />
             <div className='p-3'>
-                <h3 className='text-center'>Services</h3>
+                <h2 className='text-center'>Services</h2>
                 <hr></hr>
                 {serviceData.map((currEle) =>
                     <Services serviceData={currEle} />
@@ -27,7 +26,6 @@ const Hero = () => {
 
             </div>
             <Footer />
-            {/* console.log(Api.tid) */}
         </>
     )
 }

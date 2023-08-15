@@ -1,12 +1,11 @@
-.about-us-container{
-    display: block;
-    margin: 2%;
-    background-color: cyan;
-    border-radius: 20px;
+.about-us-container {
+  display: block;
+  margin: 2%;
+  background-color: rgb(246, 250, 250);
+  border-radius: 20px;
 }
 
-.about-us-container div{
-    margin: auto;
-    padding: 30px;
+.about-us-container div {
+  margin: auto;
+  padding: 30px;
 }
-

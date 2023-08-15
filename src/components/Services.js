@@ -18,11 +18,11 @@ const Services = ({ serviceData }) => {
                     show ?
                         <>
                             <div className='container'>
-                                <div className='data'>
+                                <div className='data service-img'>
                                     <img src={serviceData.image} alt='bar'></img>
                                 </div>
                             </div>
-                            <div className='container'>
+                            <div className='container service-data'>
                                 <p>{serviceData.desc}</p>
                             </div>
                         </>
