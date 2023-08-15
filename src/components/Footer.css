@@ -1,66 +1,66 @@
 @media only screen and (max-width: 400px) {
-    .footer-main-div{
-        width: 100%;
-    }
-    
-}
-
-.footer-main-div{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    padding-top: 100px;
-    background-image: url('http://lekvilla.com/wp-content/uploads/2015/07/BACKGROUND-FOOTER-1.jpg');
-    color: white;
-}
-
-.about-div{
-    /* background-color: rgb(226, 226, 156); */
+  .footer-main-div {
     width: 100%;
-    text-align: center;
-    padding: 5px;
+  }
 }
 
-.contact-div{
-    /* background-color: teal; */
-    /* border: #111111 1px solid; */
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 10px;
+.footer-main-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://filebin.net/yevzfkq37n73a96x/BACKGROUND-FOOTER.jpg");
+  color: white;
 }
 
-.contact-us{
-    width: 50%;
-    text-align: center;
+.about-div {
+  /* background-color: rgb(226, 226, 156); */
+  width: 100%;
+  text-align: center;
+  padding: 5px;
 }
 
-.form-div{
-    width: 50%;
+.contact-div {
+  /* background-color: teal; */
+  /* border: #111111 1px solid; */
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 10px;
 }
 
-.horizontal-list{
-    list-style-type: none;
-    overflow: hidden;
-    /* background-color: #333333; */
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+.contact-us {
+  width: 50%;
+  text-align: center;
 }
 
-
-.horizontal-list li a{
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    /* color: wheat; */
+.form-div {
+  width: 50%;
 }
 
-.footer-copyright{
-    text-align: center;
+.horizontal-list {
+  list-style-type: none;
+  overflow: hidden;
+  /* background-color: #333333; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
-a{
-    text-decoration: dashed;
-    color: white;
+
+.horizontal-list li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  /* color: wheat; */
+}
+
+.footer-copyright {
+  text-align: center;
+}
+a {
+  text-decoration: dashed;
+  color: white;
 }

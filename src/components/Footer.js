@@ -8,7 +8,7 @@ const Foooter = () => {
             <section className='contact-div'>
                 <div className='contact-us'>
                     <h5><a href="#about-us">About us</a></h5>
-                    <h5><a href="#">FAQs</a></h5>  
+                    <h5><a href="#">FAQs</a></h5>
                     <h5><a href="#">Services</a></h5>
                     <h5><a href="#">Terms</a></h5>
                     <h5><a href="#">Conditions</a></h5>
@@ -36,27 +36,27 @@ const Foooter = () => {
                     <ul className='social-icons horizontal-list'>
                         <li>
                             <a href='#'>
-                            <i className="fab fa-facebook"></i>
+                                <i className="fab fa-facebook"></i>
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                            <i className="fab fa-instagram"></i>
+                                <i className="fab fa-instagram"></i>
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                            <i className="fab fa-twitter"></i>
+                                <i className="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                            <i className="fab fa-whatsapp"></i>
+                                <i className="fab fa-whatsapp"></i>
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                            <i className="fab fa-linkedin"></i>
+                                <i className="fab fa-linkedin"></i>
                             </a>
                         </li>
                     </ul>
@@ -66,7 +66,7 @@ const Foooter = () => {
                 <span>Copyright &copy; 2022 restaurant.com</span>
             </section>
 
-        </footer>
+        </footer >
     )
 }
 

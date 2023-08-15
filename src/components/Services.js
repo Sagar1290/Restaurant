@@ -11,7 +11,7 @@ const Services = ({ serviceData }) => {
 
             <div className='container bg-light'>
                 <div className='d-flex justify-content-between'>
-                    <h4 className='service-name p-2'>{serviceData.name}<i class="fas fa-glass-cheers"></i></h4>
+                    <h4 className='service-name p-2'>{serviceData.name}<i className="fas fa-glass-cheers"></i></h4>
                     <a type="button " className="btn btn-outline-primary " onClick={() => setShow(!show)}>more</a>
                 </div>
                 {
